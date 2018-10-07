@@ -99,7 +99,7 @@ def get_predictions(features):
 
 
     
-load_dataset("balance-scale.csv")
+load_dataset("Dataset/balance-scale.csv")
 replace_nan()
 Y = dataset['ClassName']
 X = dataset.iloc[:,1:]
