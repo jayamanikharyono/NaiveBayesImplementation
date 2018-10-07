@@ -9,11 +9,15 @@ This repo for Naive Bayes Implmentation in Python. there are three naive bayes c
 To Train Model Execute Build Model Function
  * For Discrete or Continu Features (NaiveBayesCategoricalValue.py or NaiveBayesContinuValue.py)
  
-   ``model = build_model(X_train, Y_train)``
+   ```python
+   model = build_model(X_train, Y_train)
+   ```
     
  * For Both Discrete and Continu Value (NaiveBayes.py), where param numerical_column use as flag for Continu Features
  
-   ``model = build_model(X_train, Y_train, numerical_column=list_numerical_feature)``
+   ```python
+   model = build_model(X_train, Y_train, numerical_column = list_numerical_feature)
+   ```
   
 
 
